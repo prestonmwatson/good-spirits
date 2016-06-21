@@ -1,0 +1,37 @@
+.maincontent {
+  margin-top: 100px;
+}
+
+#beerlikes {
+  font-size: 15px;
+  text-align: center;
+}
+
+.well {
+  background-color: #0596D5;
+  color: white;
+ /* margin: 1px 1px;*/
+
+}
+
+a {
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+#subtext {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+h1 {
+  margin-top: 40px;
+  color: #0596D5;
+  font-weight: 600px;
+  font-size: 70px;
+}
+
+.container {
+  margin-top: -50px;
+}

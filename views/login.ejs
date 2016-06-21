@@ -1,0 +1,24 @@
+<% include ./partials/header %>
+<% include ./partials/loginpartial %>
+<% include ./partials/navBar %>
+
+<div class="container">
+  <section class="maincontent">
+    <h1 id='loginh1'> Welcome back to GoodSpirits! </h1>
+    <hr>
+    <p> </p>
+
+  <div class="wrapper">
+  <form action="/login" method='post' class="login" >
+    <p class="title">Log in</p>
+    <input type="text" name="username" placeholder="Username" id="username"/>
+    <input type="password" name="password" placeholder="Password" id="password"/>
+    <button id="loginbutton">
+      <span class="state">Log in</span>
+    </button>
+  </form>
+  </div>
+</div>
+
+
+<% include ./partials/footer %>

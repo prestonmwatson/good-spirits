@@ -1,0 +1,20 @@
+<% include ./partials/header %>
+<% include ./partials/signuppartial %>
+<% include ./partials/navBar %>
+
+<div class="container">
+<h1 id="signupheader">Sign up to be part of the GoodSpirits community.</h1>
+ <hr>
+  <div class="wrapper">
+    <form action="/signup" method='post' class="signup">
+      <p class ="title">Sign Up</p>
+      <input type="text" name="username" placeholder="Username" id="username"/>
+      <input type="password" name="password" placeholder="Password" id="password"/>
+      <input type="email" name="email" placeholder="Email" id="email"/>
+      <button id="loginbutton">
+      <span class="state">Sign Up!</span>
+    </form>
+  </div>
+</div>
+
+<% include ./partials/footer %>
