@@ -3,7 +3,10 @@ a {
   text-decoration: none !important;
 }
 
-
+.headerbox {
+  width: 800px;
+  margin: auto;
+}
 
 .headerlinks {
   list-style-type: none;
@@ -15,13 +18,61 @@ a {
 }
 
 #logo {
-  padding: 80px;
-  background: none;
-  width: 90%;
-  height: 80px;
-  top: 0;
-  left: 0;
-  /*margin-left: -10px;*/
+  height: 190px;
+  background-color:#333745;
+}
+
+#gs-logo {
+  height: 150px;
+  margin: 18px 10px 10px 25px;
+  float: left;
+}
+
+.nav-links {
+  display: inline;
+}
+
+.nav-link-indiv {
+  display: inline;
+  padding: 10px;
+  color: white;
+  font-family: 'Questrial', sans-serif;
+}
+
+.nav-link-indiv a:hover {
+  border-top: 2px solid #EA2E49;
+  border-bottom: 2px solid #EA2E49;
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.nav-link-indiv a:active {
+  border-top: 2px solid #EA2E49;
+  border-bottom: 2px solid #EA2E49;
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+
+.tag-div {
+  float: right;
+  margin-top: 70px;
+}
+
+.tagline {
+  color: white;
+  padding-top: 0px;
+  font-family: 'Righteous', cursive;
+}
+
+.links-div {
+  float: right;
+  margin-top: 30px;
+  font-family: 'Righteous', cursive;
+  font-size: 18px;
+
 }
 
 #feed {
@@ -67,7 +118,7 @@ a {
 }
 
 #h1 {
-  font-family: 'Playball', cursive;
+  font-family: 'Righteous', cursive;
   font-size: 100px;
   margin-left: 250px;
   margin-top: 3px;
@@ -77,7 +128,7 @@ a {
 #recentlyliked{
   font-size: 50px;
   padding: 40px 0 0 0;
-  font-family: 'Rubik', italic;
+  font-family: 'Righteous', cursive;
   margin-left: -40px;
 }
 
@@ -85,7 +136,7 @@ a {
   color:#FE4B28;
   font-size: 25px;
   margin-left: 270px;
-  font-family: 'Playball', cursive;
+  font-family: 'Righteous', cursive;
 }
 
 .navbar-right{
@@ -99,7 +150,7 @@ a {
   list-style: none;
   font-size: 30px;
   padding: 10px 0 0 0;
-  font-family: 'Arapey', cursive;
+  font-family: 'Righteous', cursive;
   font-weight: bold;
 
 }
@@ -108,11 +159,70 @@ a {
   display:none;
 }
 
+body {
+  background: url('http://i.imgur.com/gaFwmJT.png');
+}
 
-address{
-  color: #FE4B28;
+.list-of-home-beers {
+  width: 900px;
+  margin:auto;
+}
+
+#recentbeers {
   text-align: center;
-  padding: 10px;
-  font-size: 14px;
-  font-family: 'Playball', cursive;
+}
+
+.beerlikes {
+  width: 900px;
+}
+
+/*.beerlikes:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }*/
+
+.indiv-fr-beers {
+  float: left;
+  width: 200px;
+  margin-right: 20px;
+  border: 1px solid white;
+  color: white;
+  background: #77C4D3;
+  margin-top: 20px;
+  font-family: 'Questrial', sans-serif;
+  padding: 20px;
+  height: 120px;
+  font-size: 18px;
+  border-radius: 10px;
+  padding-top: 35px;
+}
+
+.indiv-fr-beers:nth-of-type(odd) {
+    background: #333745;
+}
+
+.h3-class{
+  text-align: center;
+}
+
+.search-button {
+  width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.search-home {
+  margin-top: 45px;
+  padding: 20px;
+  width: 230px;
+  background-color: #EA2E49;
+  color: white;
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+  border: 0;
+  border-radius: 10px;
 }

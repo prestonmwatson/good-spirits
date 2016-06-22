@@ -1,28 +1,108 @@
+a {
+  color: white;
+  text-decoration: none !important;
+}
+
+.headerbox {
+  width: 800px;
+  margin: auto;
+}
+
+.headerlinks {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 0px;
+  margin-left: 60px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+#logo {
+  height: 190px;
+  background-color:#333745;
+}
+
+#gs-logo {
+  height: 150px;
+  margin: 18px 10px 10px 25px;
+  float: left;
+}
+
+.nav-links {
+  display: inline;
+}
+
+.nav-link-indiv {
+  display: inline;
+  padding: 10px;
+  color: white;
+  font-family: 'Questrial', sans-serif;
+}
+
+.nav-link-indiv a:hover {
+  border-top: 2px solid #EA2E49;
+  border-bottom: 2px solid #EA2E49;
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.nav-link-indiv a:active {
+  border-top: 2px solid #EA2E49;
+  border-bottom: 2px solid #EA2E49;
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+
+.tag-div {
+  float: right;
+  margin-top: 70px;
+}
+
+.tagline {
+  color: white;
+  padding-top: 0px;
+  font-family: 'Righteous', cursive;
+}
+
+.links-div {
+  float: right;
+  margin-top: 30px;
+  font-family: 'Righteous', cursive;
+  font-size: 18px;
+
+}
+
 section.maincontent {
   margin-top: 30px;
 }
 
-h2 {
+
+.search {
   margin-top: 40px;
-  color: #0596D5;
-  font-weight: 600px;
-  font-size: 70px;
+  color: #333745;
+  font-size: 35px;
+  font-family: 'Righteous', cursive;
+  text-align: center;
 }
 
 #searchForBeer {
   margin-top: 10px;
   width: 300px;
   display: flex;
+  background-color: #EA2E49;
+  color: white;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   min-height: 10px;
   padding: 10px;
-  background: rgba(darken($primary,40%), 0.85);
   border-radius: 10px;
-  border: 2px solid #24D560;
+  border: 0px;
   margin-bottom: 20px;
-  margin-left: -15px;
+  height: 55px;
 }
 
 .well {
@@ -50,7 +130,8 @@ a {
 button {
   height: 20px;
   font-size: 10px;
-  background-color: #24D560;
+  background-color: #EA2E49;
+  color: white;
 
 }
 
@@ -64,7 +145,6 @@ button {
 }
 
 .showOnClick {
-  /*padding-bottom: 20px;*/
 }
 
 .comment-box {
@@ -74,3 +154,45 @@ button {
 .hideOnLoad {
   margin-left: 5px;
 }
+
+.search-bar {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+#beerList {
+  width: 1100px;
+  margin: auto;
+}
+
+input {
+  color: white;
+}
+
+.beer-list-div {
+  width: 1100px;
+  margin: auto;
+}
+
+.individual-beer {
+  float: left;
+  width: 200px;
+  margin-right: 20px;
+  border: 1px solid white;
+  color: white;
+  background: #77C4D3;
+  margin-top: 20px;
+  font-family: 'Questrial', sans-serif;
+  padding: 20px;
+  height: 120px;
+  font-size: 18px;
+  border-radius: 10px;
+  padding-top: 35px;
+}
+
+.individual-beer:nth-of-type(odd) {
+    background: #333745;
+}
+
+

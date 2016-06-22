@@ -1,3 +1,81 @@
+a {
+  color: white;
+  text-decoration: none !important;
+}
+
+.headerbox {
+  width: 800px;
+  margin: auto;
+}
+
+.headerlinks {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 0px;
+  margin-left: 60px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+#logo {
+  height: 190px;
+  background-color:#333745;
+}
+
+#gs-logo {
+  height: 150px;
+  margin: 18px 10px 10px 25px;
+  float: left;
+}
+
+.nav-links {
+  display: inline;
+}
+
+.nav-link-indiv {
+  display: inline;
+  padding: 10px;
+  color: white;
+  font-family: 'Questrial', sans-serif;
+}
+
+.nav-link-indiv a:hover {
+  border-top: 2px solid #EA2E49;
+  border-bottom: 2px solid #EA2E49;
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.nav-link-indiv a:active {
+  border-top: 2px solid #EA2E49;
+  border-bottom: 2px solid #EA2E49;
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+
+.tag-div {
+  float: right;
+  margin-top: 70px;
+}
+
+.tagline {
+  color: white;
+  padding-top: 0px;
+  font-family: 'Righteous', cursive;
+}
+
+.links-div {
+  float: right;
+  margin-top: 30px;
+  font-family: 'Righteous', cursive;
+  font-size: 18px;
+
+}
+
+
 img {
   max-width: 200px;
   margin: 2px 0px 0px 500px;

@@ -37,10 +37,10 @@ function getBeerName(beerId){
   })
   .done(function(data, textStatus) {
     console.log(data.name);
-    $('#beerlikes').append('<li>' + data.name + '</li>');
+    $('.beerlikes').append("<div class='indiv-fr-beers'>" + data.name + '</div>');
     var seen = {};
 
-  $('li').each(function() {
+  $('well').each(function() {
     var txt = $(this).text();
     if (seen[txt])
         $(this).remove();
