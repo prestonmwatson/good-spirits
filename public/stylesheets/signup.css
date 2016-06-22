@@ -96,7 +96,9 @@ a {
 }
 
 #signup-button:hover {
-  background-color: #24D560;
+  background-color: white;
+  color: #EA2E49;
+  border: 3px solid #EA2E49;
   cursor: pointer;
 }
 
@@ -137,7 +139,7 @@ body {
     border: 2px solid #24D560;
     padding: 20px;
     width: 250px;
-    height: 50px;
+    height: 55px;
     margin-top: 35px;
     font-family: 'Questrial', sans-serif;
     text-align: center;
@@ -227,5 +229,9 @@ h2 {
 .signup-tagline {
   font-family: 'Questrial', sans-serif;
   font-size: 20px;
+}
+
+::-webkit-input-placeholder {
+   color: #333745;
 }
 

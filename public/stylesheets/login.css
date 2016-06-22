@@ -101,7 +101,9 @@ a {
 }
 
 #loginbutton:hover {
-  background-color: #24D560;
+  background-color: white;
+  color: #EA2E49;
+  border: 3px solid #EA2E49;
   cursor: pointer;
 }
 
@@ -131,7 +133,7 @@ a {
   border: 0px;
   padding: 20px;
   width: 250px;
-  height: 30px;
+  height: 55px;
   background-color: white;
   font-family: 'Questrial', sans-serif;
   font-size: 23px;
@@ -144,7 +146,7 @@ a {
     border: 0px;
     padding: 20px;
     width: 250px;
-    height: 30px;
+    height: 55px;
     background-color: white;
     font-family: 'Questrial', sans-serif;
     font-size: 23px;
@@ -223,4 +225,8 @@ input:-webkit-autofill {
 
 .state {
   font-size: 23px;
+}
+
+::-webkit-input-placeholder {
+   color: #333745;
 }

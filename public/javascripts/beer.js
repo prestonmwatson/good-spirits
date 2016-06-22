@@ -54,6 +54,7 @@ function getBeerInfo() {
   .done(function(data, textStatus){
     getBeerImg(data);
     $('#beerheader').text(data.name);
+    $('.beer-name-fellow-users').text(data.name);
   })
   .fail(function(data, textStatus){
     console.log("ERROR getting likes. status: " + textStatus);
@@ -70,7 +71,7 @@ function listUsers(){
     if (like) {
       like = '"' + like + '"';
     }
-    $('#usersList').append('<div class="well well-sm col-sm-3"><a href="/users/'+ listOfPeople[i]._id + '">' + listOfPeople[i].username + '</a><p>' + like + '</p></div>');
+    $('#usersList').append('<div class="user-list-div"><a href="/users/'+ listOfPeople[i]._id + '">' + listOfPeople[i].username + '</a><br><p>' + like + '</p></div>');
   }
 }
 

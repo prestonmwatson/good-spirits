@@ -3,25 +3,29 @@
 <% include ./partials/navBar %>
 
 <div class="container">
-  <h1 id='beerheader'></h1>
-  <hr>
-  <img src="" alt="" id="beerimg">
-  <h2>Users Who Have Liked This Beer: </h2>
-
-
-
-  <div>
-    <ul id="usersList" class='row'>
-    </ul>
+  <div class="beer-header-div">
+    <h1 id='beerheader'></h1>
+  </div>
+  <div class="beer-image-div">
+    <img src="" alt="" id="beerimg">
   </div>
 
-  <hr>
+  <div class="beer-comments">
+    <h3>Like this beer? Add a comment and save it to your profile.</h3>
+      <div class="comment-area">
+        <textarea id='review' class="comment-box" name="textarea" rows="3" cols="40" placeholder="Write a comment..."></textarea>
+      </div>
+    <br>
+      <div class="button-like">
+        <button class="like">LIKE
+        </button>
+      </div>
+  </div>
 
- <h3>Have you had this beer and liked it? Add a comment and like it now!</h3>
-  <textarea id='review' class="comment-box" name="textarea" rows="3" cols="40" placeholder="Write a quick review here"></textarea>
-  <br>
- <button class="like">Like
- </button>
+   <div class="fellow-likers">
+    <h2>Fellow <span class="beer-name-fellow-users"></span> lovers:</h2>
+     <ul id="usersList" class='row'></ul>
+  </div>
 
 </div>
 
