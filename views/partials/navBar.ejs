@@ -1,23 +1,34 @@
+  <section id='logo'>
+      <div class='headerbox'>
+        <a href="/">
+          <img src="http://i.imgur.com/7ziszfS.png" id="gs-logo" alt="">
+        </a>
+      <div class="tag-div">
+        <div class='h3-class'>
+          <h3 class='tagline'>With us, you'll always be in GOODSPIRITS.</h3>
+        </div>
+      </div>
+          <br>
+      <div class="links-div">
+        <ul class="nav-links">
+          <li class="nav-link-indiv"><a href="/">HOME</a></li>
+          <% if(loggedIn) { %>
+          <li class="nav-link-indiv" id="profileheader"><a href="/users/profile">PROFILE</a></li>
+          <li id="logout" class="nav-link-indiv" ><a href="/logout">LOGOUT</a></li>
+          <% }else { %>
+            <li class="nav-link-indiv"><a href="/login">LOGIN</a></li>
+            <li class="nav-link-indiv"><a href="/signup">SIGN UP</a></li>
+          <% }; %>
+          <li class="nav-link-indiv"><a href="/search">SEARCH</a></li>
+
+
+        </ul>
+      </div>
+      </div>
+
+  </section>
+
+  <%# class="active"  if(page === 'home'){'class="active"'} %>
 
 
 
-<div class="container-fluid navbar-inverse">
-  <div class="navbar-header ">
-    <a class="navbar-brand" id='logocolor' href="/">GoodSpirits</a>
-  </div>
-  <ul class="nav navbar-nav">
-    <li id="homeheader"  ><a href="/">Home</a></li>
-    <% if(loggedIn) { %>
-      <li id="profileheader" ><a href="/users/profile">Profile</a></li>
-      <li id="logout" ><a href="/logout">Logout</a></li>
-    <%  }else { %>
-      <li id="loginheader"><a href="/login">Login</a></li>
-
-      <li id="signinheader"><a href="/signup">Signup</a></li>
-    <% }; %>
-    <li id="searchheader"><a href="/search">Search</a></li>
-
-  </ul>
-</div>
-
-<%# class="active"  if(page === 'home'){'class="active"'} %>

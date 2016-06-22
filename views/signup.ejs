@@ -3,16 +3,18 @@
 <% include ./partials/navBar %>
 
 <div class="container">
-<h1 id="signupheader">Sign up to be part of the GoodSpirits community.</h1>
- <hr>
+
+    <h1 id="signupheader">CREATE AN ACCOUNT:</h1>
+  <div class="top-writing">
+    <h3 class="signup-tagline">Create an account so you can save your favorite beers to your profile.</h3>
+  </div>
   <div class="wrapper">
     <form action="/signup" method='post' class="signup">
-      <p class ="title">Sign Up</p>
-      <input type="text" name="username" placeholder="Username" id="username"/>
-      <input type="password" name="password" placeholder="Password" id="password"/>
-      <input type="email" name="email" placeholder="Email" id="email"/>
-      <button id="loginbutton">
-      <span class="state">Sign Up!</span>
+      <input type="text" name="username" placeholder="USERNAME" class="input-styling"/>
+      <input type="password" name="password" placeholder="PASSWORD" class="input-styling"/>
+      <input type="email" name="email" placeholder="EMAIL ADDRESS" class="input-styling"/>
+      <button id="signup-button">
+      <span class="state">SUBMIT</span>
     </form>
   </div>
 </div>

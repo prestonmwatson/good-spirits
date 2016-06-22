@@ -3,47 +3,30 @@
 <% include ./partials/navBar %>
 
 
-  <section id='logo'>
-    <div id='headerbox'>
-      <h1 id='h1'>GoodSpirits</h1>
-  </section>
-      <h3 id='tagline'>"With us, you'll always be in GoodSpirits"</h3>
-    </div>
-      <section id="feed">
-
-      </section>
-    </div>
-    <div>
-
 <div class='container'>
   <div class="row">
-    <div class="col-md-6">
+    <div class="list-of-home-beers">
       <div id="recentbeers">
-          <h3 id='recentlyliked'>Recently Liked Beers</h3>
-          <ul id="beerlikes"></ul>
-    </div>
-  </div>
-  <div class="col-md-6">
-      <h2>Sign up to join GoodSpirits!</h2>
-      <button id='signuphome'><a href="/signup">Sign up!</a></button>
-      <hr>
-      <h2>Search our extensive list of beers!</h2>
-      <button id="searchhome"><a href="/search">Search!</a></button>
+        <h3 id='recentlyliked'>MOST LIKED BEERS</h3>
+          <div class="beerlikes"></div>
+      </div>
     </div>
   </div>
 </div>
-<footer>
-  <div id="address">
-    <address>
-      <strong>GoodSpirits, Inc.</strong><br>
-      600 Congress Ave, Suite 1500<br>
-      Austin, TX 78701<br>
-      <abbr title="Phone">P:</abbr> (512) 771-1010
-      <strong>Kayla Thomas</strong><br>
-      <a href="mailto:#">Kayla.Thomas@goodspirits.com</a>
-    </address>
-  </div>
-</footer>
+
+<div class="search-button">
+  <a href="/search">
+    <button class="search-home">
+      SEARCH FOR BEER
+    </button>
+  </a>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
 
 <script src="/javascripts/front_page.js" type="text/javascript" charset="utf-8" async defer></script>
 <% include ./partials/footer %>
