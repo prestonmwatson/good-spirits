@@ -72,19 +72,69 @@ a {
   margin-top: 30px;
   font-family: 'Righteous', cursive;
   font-size: 18px;
-
 }
 
+.beer-header-div {
+  width: 900px;
+  margin:auto;
+}
 
-img {
+#beerheader {
+  text-transform: uppercase;
+  font-family: 'Righteous', cursive;
+  font-size: 35px;
+  color: #333745;
+  text-align: center;
+}
+
+.beer-image-div{
+  width: 215px;
+  margin: auto;
+}
+
+#beerimg {
   max-width: 200px;
-  margin: 2px 0px 0px 500px;
   padding: 20px;
+  text-align: center;
 }
 
 ul {
   list-style: none;
   text-decoration: none;
+}
+
+.beer-comments {
+  height: 250px;
+  background-color: #77C4D3;
+  padding-top: 5px;
+  padding-left: 20px;
+  border-radius: 15px;
+}
+
+.beer-comments h3 {
+  color: white;
+  font-family: 'Questrial', sans-serif;
+  text-align: center;
+  font-size: 26px;
+}
+
+.comment-area {
+  width: 650px;
+  margin: auto;
+}
+
+.comment-box {
+  width: 650px;
+  border: 2px solid #333745;
+  border-radius: 10px;
+  padding: 8px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 18px;
+}
+
+.button-like {
+  width: 175px;
+  margin: auto;
 }
 
 #usersList{
@@ -103,14 +153,19 @@ ul {
  /* margin: 1px 1px;*/
  }
 
- a {
+user-list-div a {
   color: white;
-  font-weight: 600;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 a:hover {
-  color: #24D560;
+  color: #EA2E49;
+  font-weight: bold;
+}
+
+.fellow-likers {
+  width: 800px;
+  margin: auto;
 }
 
 h1 {
@@ -120,29 +175,64 @@ h1 {
   font-size: 70px;
 }
 
-h2 {
+.fellow-likers h2 {
   margin-top: 40px;
-  color: #0596D5;
-  font-weight: 600px;
-  font-size: 30px;
+  color: #333745;
+  font-size: 25px;
   margin-bottom: 15px;
+  font-family: 'Questrial', sans-serif;
+  text-align: center;
+}
+
+.user-list-div {
+  float: left;
+  width: 200px;
+  margin-right: 20px;
+  border: 1px solid white;
+  color: white;
+  background: #77C4D3;
+  margin-top: 20px;
+  font-family: 'Questrial', sans-serif;
+  padding: 20px;
+  height: 130px;
+  font-size: 18px;
+  border-radius: 10px;
+  padding-top: 28px;
+}
+
+.user-list-div:nth-of-type(odd) {
+    background: #333745;
 }
 
 button.like {
-  width: 200px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 15px;
-  background-color: white;
+  width: 150px;
+  height: 60px;
+  font-family: 'Righteous', cursive;
+  font-size: 25px;
+  background-color: #EA2E49;
   margin-bottom: 20px;
-  border: 2px solid #24D560;
+  border: 0px;
   border-radius: 10px;
+  color: white;
 }
 
 button.like:hover {
-  background-color: #24D560;
+  background-color: white;
+  color: #EA2E49;
   cursor: pointer;
+  border: 3px solid #EA2E49;
 }
 
 p {
   font-size: 15px;
+}
+
+.beer-name-fellow-users {
+  font-weight: bold;
+  color: #EA2E49;
+  border-bottom: 2px solid #EA2E49;
+}
+
+::-webkit-input-placeholder {
+   color: #333745;
 }

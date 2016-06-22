@@ -5,14 +5,26 @@
 
 <div class="container">
   <section class="maincontent">
-    <h1> Welcome <%= userId %>!</h1>
+    <div class="user-welcome">
+      <h3 class="user-name"> HI, <%= userId %>!</h3>
+    </div>
   </section>
-    <h2 id="subtext">
-      Here are all of the beers you've liked recently:
-    </h2>
-      <div id="beerlikes" class='row'>
-      </div>
+
+  <div class="beer-intro-para">
+    <h2 id="subtext"> Here are all of the beers you've liked recently:</h2>
+  </div>
+  <div id="beerlikes" class='row'>
+  </div>
 </div>
+
+<div class="search-button">
+  <a href="/search">
+    <button class="search-home">
+      SEARCH FOR BEER
+    </button>
+  </a>
+</div>
+
 
 <script src="../javascripts/profile.js"></script>
 <% include ./partials/footer %>

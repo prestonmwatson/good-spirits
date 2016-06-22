@@ -103,6 +103,7 @@ section.maincontent {
   border: 0px;
   margin-bottom: 20px;
   height: 55px;
+  font-size: 20px;
 }
 
 .well {
@@ -122,9 +123,29 @@ a {
   display:none;
 }
 
-.well:hover button.hideOnLoad{
-  display:inline-block;
-  color:black;
+.individual-beer:hover button.hideOnLoad{
+  display:inline;
+  color:white;
+  height: 30px;
+  width: 60px;
+  font-family: 'Righteous', cursive;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.individual-beer:hover button.hideOnLoad:hover {
+  display:inline;
+  color:#EA2E49;
+  height: 30px;
+  width: 60px;
+  font-family: 'Righteous', cursive;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-top: 5px;
+  background-color: white;
 }
 
 button {
@@ -185,7 +206,7 @@ input {
   margin-top: 20px;
   font-family: 'Questrial', sans-serif;
   padding: 20px;
-  height: 120px;
+  height: 130px;
   font-size: 18px;
   border-radius: 10px;
   padding-top: 35px;
@@ -194,5 +215,15 @@ input {
 .individual-beer:nth-of-type(odd) {
     background: #333745;
 }
+
+.individual-beer a:hover {
+  color: #EA2E49;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+
 
 

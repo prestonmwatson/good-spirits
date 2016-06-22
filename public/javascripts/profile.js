@@ -59,6 +59,6 @@ function listLikes(){
     if (like) {
       like = '"' + like + '"';
     }
-    $('#beerlikes').append('<div class="well well-sm col-sm-3"><a href="/beers/'+beerList[i].id + '">' + beerList[i].name + '</a><p>'+ like +'</p></div>');
+    $('#beerlikes').append('<div class="indiv-fr-beers"><a href="/beers/'+beerList[i].id + '">' + beerList[i].name + '</a><p>'+ like +'</p></div>');
   }
 };
