@@ -222,6 +222,7 @@ input {
 
 ::-webkit-input-placeholder {
    color: white;
+   font-family: 'Questrial', sans-serif;
 }
 
 
